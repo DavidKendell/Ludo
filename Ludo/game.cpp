@@ -63,6 +63,7 @@ int main() {
 			std::cout << "Play again? y/n ";
 			std::cin >> ch;
 		} while (ch != 'y' && ch != 'n');
+		std::cin.ignore();
 		if (ch == 'n') letsPlay = false;
 	} 
 
